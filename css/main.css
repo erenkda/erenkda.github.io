@@ -31,7 +31,7 @@
 body {
     background: linear-gradient(rgba(10, 10, 10, 0.2), rgba(0, 0, 0, 0.4)),
 				repeating-linear-gradient(0, transparent, transparent 2px, black 3px, black 3px),
-                url(https://cdn.glitch.me/d44b01d5-da90-43d1-9ef8-f3c133aeb4ba%2Fthumbnails%2Fdownload.gif?1638022717931);
+                url('https://cdn.glitch.me/d44b01d5-da90-43d1-9ef8-f3c133aeb4ba%2Fthumbnails%2Fdownload.gif?1638022717931');
     height: 100vh;
     width: 100%;
     margin: 0;
