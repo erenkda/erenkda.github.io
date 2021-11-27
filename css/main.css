@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.sub {
+    color: #64dcdc;
+    letter-spacing: 0.5em;
+  }
+  
+  .sub > a {
+    display: inline-block;
+    display: -moz-inline-box;
+    *display: inline;
+    zoom: 1;
+    width: 33%;
+    text-align: center;
+    white-space: nowrap;
+    font-family: visitor;
+    font-size: 25px;
+    -webkit-transition: font-size 0.4s;
+    transition: font-size 0.4s;
+  }
+
+  .sub > a:hover {
+      font-size: 30px;
+  }
+
+  a, a:visited, a:hover, a:active {
+    text-decoration: none;
+  }
+
+body {
+    background: linear-gradient(rgba(10, 10, 10, 0.2), rgba(0, 0, 0, 0.4)),
+				repeating-linear-gradient(0, transparent, transparent 2px, black 3px, black 3px),
+                url(../images/image2.gif);
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+
+html, body, h1 {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {margin: 0; height: 100%; overflow: hidden}
+
+@font-face {
+    font-family: visitor;
+    src: url('../fonts/fonts-visitor1.ttf');
+}
+
+@font-face {
+    font-family: pixie;
+    src: url('../fonts/fonts-pixie.ttf')
+}
+
+.glitch {
+    color: rgb(228, 236, 238);
+    font-size: 1.75em;
+    letter-spacing: 0em;
+    /*font-family: 'Montserrat', sans-serif;*/
+    /*font-family: 'Major Mono Display', monospace;*/
+    font-family: 'Press Start 2P', cursive;
+}
